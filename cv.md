@@ -14,3 +14,19 @@ I am a front-end student. In the future I plan to become a full-stack developer.
 * Understanding of algorithm 
 * Knowledge of .NET 
 * Experience in GIT 
+## _Code Example_ ##
+```
+function isJumping(number) {
+  const str = String(number);
+
+  for (let i = 1; i < str.length; i++) {
+    const difference = str[i] - str[i - 1];
+    
+    if (Math.abs(difference) !== 1) {
+      return 'NOT JUMPING';
+    }
+  }
+
+  return 'JUMPING';
+}
+```
