@@ -30,3 +30,16 @@ function isJumping(number) {
   return 'JUMPING';
 }
 ```
+## _Work Experience_ ##
+* [training project]()
+## _Education_ ##
+* National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute". Master of science in chemical technologies and engineering
+* Private higher education institution "International University of Finance". Bachelor of science in management
+## _Courses_ ##
+* EPAM University. "IT Fundamentals for Ukrainian Switcher - .NET Beginner". 2022
+* EPAM University. "IT Fundamentals". 2022 
+* MateAcademy. “FullStack” (in progress)
+## _Languages_ ##
+* Ukrainian (native)
+* Russian (fluent)
+* English (intermediate) 
