@@ -31,7 +31,7 @@ function isJumping(number) {
 }
 ```
 ## _Work Experience_ ##
-* [Training project](https://github.com/AllaSerhiienko/rsschool-cv/blob/gh-pages/cv.md)
+* [Training project](h3. https://allaserhiienko.github.io/rsschool-cv/)
 ## _Education_ ##
 * National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute". Master of science in chemical technologies and engineering
 * Private higher education institution "International University of Finance". Bachelor of science in management
