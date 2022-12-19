@@ -1,0 +1,188 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Raleway', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;;
+  line-height: 1.5;
+  color: #464646;
+  background-color: #f6f7f8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container-page {
+  margin: 15px auto;
+  width: 1100px;
+  background-color: #fff;
+  box-shadow: 10px 10px 10px rgba(0 0 0 / 20%);
+}
+@media (max-width: 1100px) {
+  .container-page {
+    max-width: 100%;
+    /* overflow: hidden;  */
+  }
+}
+
+.header {
+  line-height: 40px;
+  text-align: center;
+  background-color: rgb(229, 197, 208);
+}
+
+.main {
+  padding: 0 40px;
+}
+
+.footer {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+  /* align-items: center; */
+  padding: 10px;
+  line-height: 40px;
+  background-color: rgb(229, 197, 208);
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-list {
+  /* display: flex;
+  justify-content: flex-end; */
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.nav-item {
+  display: inline-block;
+  line-height: 30px;
+}
+
+.nav-link {
+  padding: 5px 15px;
+  text-decoration: none;
+  color: #282828;
+  font-weight: bold;
+}
+ 
+.nav-link:hover {
+  background-color: #fff;
+}
+
+.section {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.section-title {
+  font-size: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(171 114 133);;
+}
+
+.profile-name {
+  position: relative;
+  bottom: 50px;
+  display: inline-block;
+  padding: 20px 30px 0 10px;
+
+}
+
+.main-title {
+  font-size: 55px;
+  color: #464646;
+  letter-spacing: 6px;
+}
+
+.position-title {
+  font-size: 26px;
+}
+
+.profile-section {
+  width: 100%;
+  text-align: center;
+}
+
+/* .pink-block {
+  position: absolute;
+  top: 100px;
+  left: inherit;
+  position: relative;
+  left: -70px;
+  display: inline-block;
+  z-index: 5;
+  margin-top: 100px;
+  height: 250px;
+  width: 260px;
+  background-color: rgb(229, 197, 208);
+} */
+
+.profile-photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 30px 30px 0px 60px;
+}
+
+.contact-item, 
+.skill-item,
+.lang-item,
+.edu-item, 
+.courses-item {
+  margin-bottom: 10px;
+}
+
+
+.code {
+  padding: 10px;
+  background-color: #eee;
+}
+
+.github-name {
+  position: relative;
+  bottom: 9px;
+  display: inline-block;
+  padding-left: 20px;
+  color: #282828;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.rss-img {
+  float: right;
+  width: 120px;
+}
+
+.year {
+  display: inline-block;
+  font-size: 25px;
+  position: relative;
+  bottom: 9px;
+  left: 25%;
+}
