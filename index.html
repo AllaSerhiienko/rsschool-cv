@@ -106,19 +106,16 @@
           <section class="section" id="code">
             <h2 class="section-title">Code Example</h2>
             <pre class="code">
-function isJumping(number) {
-  const str = String(number);
+function createArray(N) {
+  const numbers = [];
 
-  for (let i = 1; ilength; i++) {
-    const difference = - str[i - 1];
-    
-    if (Math.abs(diffe!== 1) {
-      return 'NOT JUMPING';
-    }
+  for (let i = 1; i &lt;= N; i++) {
+    numbers.push(i);
   }
 
-  return 'JUMPING';
-}</pre>
+  return numbers;
+}
+              </pre>
           </section>
 
         </div>
@@ -126,9 +123,12 @@ function isJumping(number) {
 
       <footer class="footer">
         <div class="container">
-          <a href="https://github.com/AllaSerhiienko"><img src="./assets/img/github.svg" width="42px"><span class="github-link">AllaSerhiienko</span></a>
+          
+          <a href="https://github.com/AllaSerhiienko" class="github-link"><img src="./assets/img/github.svg" width="40" alt="GitHub"><span  class="github-name">AllaSerhiienko</span></a>
 
-          <a href="https://rs.school/js-stage0/" class="rss-link"><img src="./assets/img/rs_school_js.svg" alt="RSSchool" width="100" class="rss-img"></a>
+          <p class="year">2022</p>
+
+          <a href="https://rs.school/js-stage0/" class="rss-link"><img src="./assets/img/rs_school_js.svg" alt="RSSchool" class="rss-img"></a>
         </div>
       </footer>
     </div>
